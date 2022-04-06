@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+body{
+  background-image: url("../src/assets/Background.jpg");
+
+}
+
+/* .App{
+  width: 100%;
+  justify-content: 100%;
+} */
+
+.wave{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+header{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+header .logo{
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+header nav{
+  position: relative;
+}
+
+header nav ul{
+  position: relative;
+  display: flex;
+}
+
+header nav ul li{
+  list-style: none;
+}
+
+header nav ul li a{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  color: #ff0083;
+}
+
+section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100px;
+  height: 100vh;
+  padding: 0 100px;
+}
+
+section .contentBx{
+  position: relative;
+ 
+  max-width: 800px;
+  z-index: 1000;
+}
+
+section .contentBx h2{
+  font-size: 90px;
+  font-weight: 700;
+  /* color: #fff; */
+  background-color: #fff;
+
+  text-transform:uppercase;
+  background-image: linear-gradient(to bottom,  #9CECFB, #0052D4,#0052D4) !important; 
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+section .contentBx p{
+  font-size: 18px;
+  color:#333333;
+  font-weight: 500;
+}
+
+.bn3 {
+  display: inline-block;
+  padding: 0.5em 2em;
+  margin: 1rem 0.1em 0.1em 0;
+  border: 0.16em solid  #0052D4;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  text-align: center;
+  transition: all 0.2s;
+  font-size: 22px;
+  background-image: linear-gradient(to bottom,  #9CECFB, #0052D4,#0052D4) !important;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+
+
+.bn3:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+ 
+
+@media(max-width: 991px){
+  section{
+    flex-direction: column;
+    /* height:auto; */
+  }
+  section .contentBx{
+    max-width: 100%;
+
+  }
+
+section .contentBx h2{
+  font-size: 60px;
+}
+
+}
+
+@media(max-width: 767px){
+  header{
+    padding: 20px 50px;
+  }
+  section{
+    flex-direction: column;
+    padding: 120px 10px 100px;
+    /* height: auto; */
+  }
+  section .contentBx h2{
+    font-size: 40px;
+  }
+  section .contentBx{
+    /* font-size: 90px; */
+  }
+}
