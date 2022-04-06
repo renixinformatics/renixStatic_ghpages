@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/renixStatic_ghpages/static/css/main.f3b7bda8.css",
+    "main.js": "/renixStatic_ghpages/static/js/main.29ae72e2.js",
+    "static/js/787.e4e19ed9.chunk.js": "/renixStatic_ghpages/static/js/787.e4e19ed9.chunk.js",
+    "static/media/Background.jpg": "/renixStatic_ghpages/static/media/Background.e8577bac572aa3237c45.jpg",
+    "static/media/cancel.png": "/renixStatic_ghpages/static/media/cancel.dcf94367e9379947f510.png",
+    "index.html": "/renixStatic_ghpages/index.html",
+    "main.f3b7bda8.css.map": "/renixStatic_ghpages/static/css/main.f3b7bda8.css.map",
+    "main.29ae72e2.js.map": "/renixStatic_ghpages/static/js/main.29ae72e2.js.map",
+    "787.e4e19ed9.chunk.js.map": "/renixStatic_ghpages/static/js/787.e4e19ed9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3b7bda8.css",
+    "static/js/main.29ae72e2.js"
+  ]
+}
